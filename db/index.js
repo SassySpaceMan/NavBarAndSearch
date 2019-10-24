@@ -12,11 +12,8 @@ var searchSchema = new mongoose.Schema({
   name: String,
 });
 
-let search = mongoose.model('search', searchSchema);
+let Search = mongoose.model('Search', searchSchema);
 
+// Search.insertMany(searchArr, function(err){if(err){console.log(err)}})
 
-
-
-  search.create(
-    {name: 'men'}
-    )
+module.exports = { db , Search}
