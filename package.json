@@ -21,7 +21,7 @@
   "homepage": "https://github.com/HRLA32-FEC-Group-One-Versace-so-Sloppy/navBarandSearch#readme",
   "dependencies": {
     "@babel/cli": "^7.6.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
